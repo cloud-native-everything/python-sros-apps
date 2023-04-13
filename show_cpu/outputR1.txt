@@ -1,0 +1,945 @@
+[
+  {
+    "source": "clab-sr-demo-R1:57400",
+    "timestamp": 1681334211252537788,
+    "time": "2023-04-12T16:16:51.252537788-05:00",
+    "updates": [
+      {
+        "Path": "state/system/cpu[sample-period=1]",
+        "values": {
+          "state/system/cpu": {
+            "bfd": {
+              "capacity-usage": "0.02",
+              "cpu-time": 235,
+              "cpu-usage": "0.01",
+              "time-used": "235"
+            },
+            "bgp": {
+              "capacity-usage": "0.0",
+              "cpu-time": 76,
+              "cpu-usage": "0.0",
+              "time-used": "76"
+            },
+            "bgp-pe-ce": {
+              "capacity-usage": "0.01",
+              "cpu-time": 187,
+              "cpu-usage": "0.0",
+              "time-used": "187"
+            },
+            "bier": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "calltrace": {
+              "capacity-usage": "0.07",
+              "cpu-time": 755,
+              "cpu-usage": "0.03",
+              "time-used": "755"
+            },
+            "cards-and-ports": {
+              "capacity-usage": "0.15",
+              "cpu-time": 3379,
+              "cpu-usage": "0.16",
+              "time-used": "3379"
+            },
+            "cflowd": {
+              "capacity-usage": "0.0",
+              "cpu-time": 65,
+              "cpu-usage": "0.0",
+              "time-used": "65"
+            },
+            "dhcp-server": {
+              "capacity-usage": "0.0",
+              "cpu-time": 12,
+              "cpu-usage": "0.0",
+              "time-used": "12"
+            },
+            "eth-cfm": {
+              "capacity-usage": "0.05",
+              "cpu-time": 1077,
+              "cpu-usage": "0.05",
+              "time-used": "1077"
+            },
+            "hqos-algorithm": {
+              "capacity-usage": "0.01",
+              "cpu-time": 155,
+              "cpu-usage": "0.0",
+              "time-used": "155"
+            },
+            "hqos-statistics": {
+              "capacity-usage": "0.08",
+              "cpu-time": 840,
+              "cpu-usage": "0.04",
+              "time-used": "840"
+            },
+            "icc": {
+              "capacity-usage": "0.02",
+              "cpu-time": 590,
+              "cpu-usage": "0.02",
+              "time-used": "590"
+            },
+            "igmp-mld": {
+              "capacity-usage": "0.02",
+              "cpu-time": 270,
+              "cpu-usage": "0.01",
+              "time-used": "270"
+            },
+            "imsi-db-appl": {
+              "capacity-usage": "0.0",
+              "cpu-time": 48,
+              "cpu-usage": "0.0",
+              "time-used": "48"
+            },
+            "iom": {
+              "capacity-usage": "0.35",
+              "cpu-time": 16890,
+              "cpu-usage": "0.84",
+              "time-used": "16890"
+            },
+            "ip-stack": {
+              "capacity-usage": "0.09",
+              "cpu-time": 3552,
+              "cpu-usage": "0.17",
+              "time-used": "3552"
+            },
+            "is-is": {
+              "capacity-usage": "0.15",
+              "cpu-time": 1776,
+              "cpu-usage": "0.08",
+              "time-used": "1776"
+            },
+            "isa": {
+              "capacity-usage": "0.1",
+              "cpu-time": 2950,
+              "cpu-usage": "0.14",
+              "time-used": "2950"
+            },
+            "ldp": {
+              "capacity-usage": "0.05",
+              "cpu-time": 670,
+              "cpu-usage": "0.03",
+              "time-used": "670"
+            },
+            "logging": {
+              "capacity-usage": "0.0",
+              "cpu-time": 51,
+              "cpu-usage": "0.0",
+              "time-used": "51"
+            },
+            "management": {
+              "capacity-usage": "0.16",
+              "cpu-time": 4234,
+              "cpu-usage": "0.21",
+              "time-used": "4234"
+            },
+            "mbuf": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "mcs": {
+              "capacity-usage": "0.0",
+              "cpu-time": 99,
+              "cpu-usage": "0.0",
+              "time-used": "99"
+            },
+            "mpls-rsvp": {
+              "capacity-usage": "0.19",
+              "cpu-time": 3114,
+              "cpu-usage": "0.15",
+              "time-used": "3114"
+            },
+            "mscp": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "msdp": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "oam": {
+              "capacity-usage": "0.09",
+              "cpu-time": 3325,
+              "cpu-usage": "0.16",
+              "time-used": "3325"
+            },
+            "openflow": {
+              "capacity-usage": "0.0",
+              "cpu-time": 41,
+              "cpu-usage": "0.0",
+              "time-used": "41"
+            },
+            "ospf": {
+              "capacity-usage": "0.06",
+              "cpu-time": 2419,
+              "cpu-usage": "0.12",
+              "time-used": "2419"
+            },
+            "pim-l2mcast": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "pki": {
+              "capacity-usage": "0.0",
+              "cpu-time": 31,
+              "cpu-usage": "0.0",
+              "time-used": "31"
+            },
+            "ptp": {
+              "capacity-usage": "0.0",
+              "cpu-time": 28,
+              "cpu-usage": "0.0",
+              "time-used": "28"
+            },
+            "redundancy": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "rip": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "rtm-policies": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "sample-period": 1,
+            "security": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "services": {
+              "capacity-usage": "0.07",
+              "cpu-time": 1895,
+              "cpu-usage": "0.09",
+              "time-used": "1895"
+            },
+            "sim": {
+              "capacity-usage": "0.45",
+              "cpu-time": 4885,
+              "cpu-usage": "0.24",
+              "time-used": "4885"
+            },
+            "snmp-daemon": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "stats": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "stats-extended": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "subscriber-mgmt": {
+              "capacity-usage": "0.03",
+              "cpu-time": 1943,
+              "cpu-usage": "0.09",
+              "time-used": "1943"
+            },
+            "summary": {
+              "busiest-core-utilization": {
+                "cpu-time": 36603,
+                "cpu-usage": "3.66",
+                "time-used": "36603"
+              },
+              "idle": {
+                "cpu-time": 1927269,
+                "cpu-usage": "96.54",
+                "time-used": "1927269"
+              },
+              "total": {
+                "cpu-time": 1996172,
+                "cpu-usage": "100.0",
+                "time-used": "1996172"
+              },
+              "usage": {
+                "cpu-time": 68903,
+                "cpu-usage": "3.45",
+                "time-used": "68903"
+              }
+            },
+            "system": {
+              "capacity-usage": "0.4",
+              "cpu-time": 12614,
+              "cpu-usage": "0.63",
+              "time-used": "12614"
+            },
+            "traffic-eng": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "tree-sid": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "vrrp": {
+              "capacity-usage": "0.02",
+              "cpu-time": 535,
+              "cpu-usage": "0.02",
+              "time-used": "535"
+            },
+            "web-redirect": {
+              "capacity-usage": "0.01",
+              "cpu-time": 162,
+              "cpu-usage": "0.0",
+              "time-used": "162"
+            }
+          }
+        }
+      },
+      {
+        "Path": "state/system/cpu[sample-period=60]",
+        "values": {
+          "state/system/cpu": {
+            "bfd": {
+              "capacity-usage": "0.02",
+              "cpu-time": 14638,
+              "cpu-usage": "0.01",
+              "time-used": "14638"
+            },
+            "bgp": {
+              "capacity-usage": "0.01",
+              "cpu-time": 10522,
+              "cpu-usage": "0.0",
+              "time-used": "10522"
+            },
+            "bgp-pe-ce": {
+              "capacity-usage": "0.01",
+              "cpu-time": 17967,
+              "cpu-usage": "0.01",
+              "time-used": "17967"
+            },
+            "bier": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "calltrace": {
+              "capacity-usage": "0.07",
+              "cpu-time": 45308,
+              "cpu-usage": "0.03",
+              "time-used": "45308"
+            },
+            "cards-and-ports": {
+              "capacity-usage": "0.16",
+              "cpu-time": 221341,
+              "cpu-usage": "0.18",
+              "time-used": "221341"
+            },
+            "cflowd": {
+              "capacity-usage": "0.0",
+              "cpu-time": 4459,
+              "cpu-usage": "0.0",
+              "time-used": "4459"
+            },
+            "dhcp-server": {
+              "capacity-usage": "0.0",
+              "cpu-time": 1189,
+              "cpu-usage": "0.0",
+              "time-used": "1189"
+            },
+            "eth-cfm": {
+              "capacity-usage": "0.06",
+              "cpu-time": 68924,
+              "cpu-usage": "0.05",
+              "time-used": "68924"
+            },
+            "hqos-algorithm": {
+              "capacity-usage": "0.01",
+              "cpu-time": 10446,
+              "cpu-usage": "0.0",
+              "time-used": "10446"
+            },
+            "hqos-statistics": {
+              "capacity-usage": "0.09",
+              "cpu-time": 56603,
+              "cpu-usage": "0.04",
+              "time-used": "56603"
+            },
+            "icc": {
+              "capacity-usage": "0.04",
+              "cpu-time": 45784,
+              "cpu-usage": "0.03",
+              "time-used": "45784"
+            },
+            "igmp-mld": {
+              "capacity-usage": "0.02",
+              "cpu-time": 18113,
+              "cpu-usage": "0.01",
+              "time-used": "18113"
+            },
+            "imsi-db-appl": {
+              "capacity-usage": "0.0",
+              "cpu-time": 3973,
+              "cpu-usage": "0.0",
+              "time-used": "3973"
+            },
+            "iom": {
+              "capacity-usage": "0.35",
+              "cpu-time": 1019806,
+              "cpu-usage": "0.85",
+              "time-used": "1019806"
+            },
+            "ip-stack": {
+              "capacity-usage": "0.11",
+              "cpu-time": 238927,
+              "cpu-usage": "0.19",
+              "time-used": "238927"
+            },
+            "is-is": {
+              "capacity-usage": "0.2",
+              "cpu-time": 140858,
+              "cpu-usage": "0.11",
+              "time-used": "140858"
+            },
+            "isa": {
+              "capacity-usage": "0.11",
+              "cpu-time": 177987,
+              "cpu-usage": "0.14",
+              "time-used": "177987"
+            },
+            "ldp": {
+              "capacity-usage": "0.06",
+              "cpu-time": 44612,
+              "cpu-usage": "0.03",
+              "time-used": "44612"
+            },
+            "logging": {
+              "capacity-usage": "0.0",
+              "cpu-time": 4400,
+              "cpu-usage": "0.0",
+              "time-used": "4400"
+            },
+            "management": {
+              "capacity-usage": "0.21",
+              "cpu-time": 311383,
+              "cpu-usage": "0.26",
+              "time-used": "311383"
+            },
+            "mbuf": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "mcs": {
+              "capacity-usage": "0.0",
+              "cpu-time": 6538,
+              "cpu-usage": "0.0",
+              "time-used": "6538"
+            },
+            "mpls-rsvp": {
+              "capacity-usage": "0.21",
+              "cpu-time": 200900,
+              "cpu-usage": "0.16",
+              "time-used": "200900"
+            },
+            "mscp": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "msdp": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "oam": {
+              "capacity-usage": "0.09",
+              "cpu-time": 208046,
+              "cpu-usage": "0.17",
+              "time-used": "208046"
+            },
+            "openflow": {
+              "capacity-usage": "0.0",
+              "cpu-time": 3306,
+              "cpu-usage": "0.0",
+              "time-used": "3306"
+            },
+            "ospf": {
+              "capacity-usage": "0.06",
+              "cpu-time": 148694,
+              "cpu-usage": "0.12",
+              "time-used": "148694"
+            },
+            "pim-l2mcast": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "pki": {
+              "capacity-usage": "0.0",
+              "cpu-time": 2107,
+              "cpu-usage": "0.0",
+              "time-used": "2107"
+            },
+            "ptp": {
+              "capacity-usage": "0.0",
+              "cpu-time": 1587,
+              "cpu-usage": "0.0",
+              "time-used": "1587"
+            },
+            "redundancy": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "rip": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "rtm-policies": {
+              "capacity-usage": "0.0",
+              "cpu-time": 3819,
+              "cpu-usage": "0.0",
+              "time-used": "3819"
+            },
+            "sample-period": 60,
+            "security": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "services": {
+              "capacity-usage": "0.08",
+              "cpu-time": 123779,
+              "cpu-usage": "0.1",
+              "time-used": "123779"
+            },
+            "sim": {
+              "capacity-usage": "0.62",
+              "cpu-time": 406483,
+              "cpu-usage": "0.33",
+              "time-used": "406483"
+            },
+            "snmp-daemon": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "stats": {
+              "capacity-usage": "0.0",
+              "cpu-time": 281,
+              "cpu-usage": "0.0",
+              "time-used": "281"
+            },
+            "stats-extended": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "subscriber-mgmt": {
+              "capacity-usage": "0.02",
+              "cpu-time": 116536,
+              "cpu-usage": "0.09",
+              "time-used": "116536"
+            },
+            "summary": {
+              "busiest-core-utilization": {
+                "cpu-time": 2401042,
+                "cpu-usage": "4.01",
+                "time-used": "2401042"
+              },
+              "idle": {
+                "cpu-time": 115128832,
+                "cpu-usage": "96.2",
+                "time-used": "115128832"
+              },
+              "total": {
+                "cpu-time": 119665698,
+                "cpu-usage": "100.0",
+                "time-used": "119665698"
+              },
+              "usage": {
+                "cpu-time": 4536866,
+                "cpu-usage": "3.79",
+                "time-used": "4536866"
+              }
+            },
+            "system": {
+              "capacity-usage": "0.42",
+              "cpu-time": 811775,
+              "cpu-usage": "0.67",
+              "time-used": "811775"
+            },
+            "traffic-eng": {
+              "capacity-usage": "0.0",
+              "cpu-time": 886,
+              "cpu-usage": "0.0",
+              "time-used": "886"
+            },
+            "tree-sid": {
+              "capacity-usage": "0.0",
+              "cpu-time": 626,
+              "cpu-usage": "0.0",
+              "time-used": "626"
+            },
+            "vrrp": {
+              "capacity-usage": "0.02",
+              "cpu-time": 31796,
+              "cpu-usage": "0.02",
+              "time-used": "31796"
+            },
+            "web-redirect": {
+              "capacity-usage": "0.01",
+              "cpu-time": 12467,
+              "cpu-usage": "0.01",
+              "time-used": "12467"
+            }
+          }
+        }
+      },
+      {
+        "Path": "state/system/cpu[sample-period=300]",
+        "values": {
+          "state/system/cpu": {
+            "bfd": {
+              "capacity-usage": "0.02",
+              "cpu-time": 82146,
+              "cpu-usage": "0.01",
+              "time-used": "82146"
+            },
+            "bgp": {
+              "capacity-usage": "0.01",
+              "cpu-time": 64726,
+              "cpu-usage": "0.01",
+              "time-used": "64726"
+            },
+            "bgp-pe-ce": {
+              "capacity-usage": "0.02",
+              "cpu-time": 102082,
+              "cpu-usage": "0.01",
+              "time-used": "102082"
+            },
+            "bier": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "calltrace": {
+              "capacity-usage": "0.08",
+              "cpu-time": 266996,
+              "cpu-usage": "0.04",
+              "time-used": "266996"
+            },
+            "cards-and-ports": {
+              "capacity-usage": "0.18",
+              "cpu-time": 1242964,
+              "cpu-usage": "0.2",
+              "time-used": "1242964"
+            },
+            "cflowd": {
+              "capacity-usage": "0.0",
+              "cpu-time": 26800,
+              "cpu-usage": "0.0",
+              "time-used": "26800"
+            },
+            "dhcp-server": {
+              "capacity-usage": "0.0",
+              "cpu-time": 7826,
+              "cpu-usage": "0.0",
+              "time-used": "7826"
+            },
+            "eth-cfm": {
+              "capacity-usage": "0.07",
+              "cpu-time": 399009,
+              "cpu-usage": "0.06",
+              "time-used": "399009"
+            },
+            "hqos-algorithm": {
+              "capacity-usage": "0.02",
+              "cpu-time": 64495,
+              "cpu-usage": "0.01",
+              "time-used": "64495"
+            },
+            "hqos-statistics": {
+              "capacity-usage": "0.11",
+              "cpu-time": 331749,
+              "cpu-usage": "0.05",
+              "time-used": "331749"
+            },
+            "icc": {
+              "capacity-usage": "0.04",
+              "cpu-time": 260127,
+              "cpu-usage": "0.04",
+              "time-used": "260127"
+            },
+            "igmp-mld": {
+              "capacity-usage": "0.02",
+              "cpu-time": 100392,
+              "cpu-usage": "0.01",
+              "time-used": "100392"
+            },
+            "imsi-db-appl": {
+              "capacity-usage": "0.0",
+              "cpu-time": 21779,
+              "cpu-usage": "0.0",
+              "time-used": "21779"
+            },
+            "iom": {
+              "capacity-usage": "0.38",
+              "cpu-time": 5610046,
+              "cpu-usage": "0.93",
+              "time-used": "5610046"
+            },
+            "ip-stack": {
+              "capacity-usage": "0.11",
+              "cpu-time": 1316236,
+              "cpu-usage": "0.22",
+              "time-used": "1316236"
+            },
+            "is-is": {
+              "capacity-usage": "0.22",
+              "cpu-time": 774763,
+              "cpu-usage": "0.12",
+              "time-used": "774763"
+            },
+            "isa": {
+              "capacity-usage": "0.13",
+              "cpu-time": 1012013,
+              "cpu-usage": "0.16",
+              "time-used": "1012013"
+            },
+            "ldp": {
+              "capacity-usage": "0.07",
+              "cpu-time": 259370,
+              "cpu-usage": "0.04",
+              "time-used": "259370"
+            },
+            "logging": {
+              "capacity-usage": "0.0",
+              "cpu-time": 25810,
+              "cpu-usage": "0.0",
+              "time-used": "25810"
+            },
+            "management": {
+              "capacity-usage": "0.24",
+              "cpu-time": 1663383,
+              "cpu-usage": "0.27",
+              "time-used": "1663383"
+            },
+            "mbuf": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "mcs": {
+              "capacity-usage": "0.0",
+              "cpu-time": 35201,
+              "cpu-usage": "0.0",
+              "time-used": "35201"
+            },
+            "mpls-rsvp": {
+              "capacity-usage": "0.23",
+              "cpu-time": 1127879,
+              "cpu-usage": "0.18",
+              "time-used": "1127879"
+            },
+            "mscp": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "msdp": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "oam": {
+              "capacity-usage": "0.1",
+              "cpu-time": 1188618,
+              "cpu-usage": "0.19",
+              "time-used": "1188618"
+            },
+            "openflow": {
+              "capacity-usage": "0.0",
+              "cpu-time": 21274,
+              "cpu-usage": "0.0",
+              "time-used": "21274"
+            },
+            "ospf": {
+              "capacity-usage": "0.08",
+              "cpu-time": 894328,
+              "cpu-usage": "0.14",
+              "time-used": "894328"
+            },
+            "pim-l2mcast": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "pki": {
+              "capacity-usage": "0.0",
+              "cpu-time": 11983,
+              "cpu-usage": "0.0",
+              "time-used": "11983"
+            },
+            "ptp": {
+              "capacity-usage": "0.0",
+              "cpu-time": 8542,
+              "cpu-usage": "0.0",
+              "time-used": "8542"
+            },
+            "redundancy": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "rip": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "rtm-policies": {
+              "capacity-usage": "0.0",
+              "cpu-time": 28836,
+              "cpu-usage": "0.0",
+              "time-used": "28836"
+            },
+            "sample-period": 300,
+            "security": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "services": {
+              "capacity-usage": "0.09",
+              "cpu-time": 708508,
+              "cpu-usage": "0.11",
+              "time-used": "708508"
+            },
+            "sim": {
+              "capacity-usage": "0.66",
+              "cpu-time": 2166562,
+              "cpu-usage": "0.36",
+              "time-used": "2166562"
+            },
+            "snmp-daemon": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "stats": {
+              "capacity-usage": "0.0",
+              "cpu-time": 1418,
+              "cpu-usage": "0.0",
+              "time-used": "1418"
+            },
+            "stats-extended": {
+              "capacity-usage": "0.0",
+              "cpu-time": 0,
+              "cpu-usage": "0.0",
+              "time-used": "0"
+            },
+            "subscriber-mgmt": {
+              "capacity-usage": "0.03",
+              "cpu-time": 645045,
+              "cpu-usage": "0.1",
+              "time-used": "645045"
+            },
+            "summary": {
+              "busiest-core-utilization": {
+                "cpu-time": 13302544,
+                "cpu-usage": "4.44",
+                "time-used": "13302544"
+              },
+              "idle": {
+                "cpu-time": 573079752,
+                "cpu-usage": "95.78",
+                "time-used": "573079752"
+              },
+              "total": {
+                "cpu-time": 598276315,
+                "cpu-usage": "100.0",
+                "time-used": "598276315"
+              },
+              "usage": {
+                "cpu-time": 25196563,
+                "cpu-usage": "4.21",
+                "time-used": "25196563"
+              }
+            },
+            "system": {
+              "capacity-usage": "0.48",
+              "cpu-time": 4470308,
+              "cpu-usage": "0.74",
+              "time-used": "4470308"
+            },
+            "traffic-eng": {
+              "capacity-usage": "0.0",
+              "cpu-time": 5194,
+              "cpu-usage": "0.0",
+              "time-used": "5194"
+            },
+            "tree-sid": {
+              "capacity-usage": "0.0",
+              "cpu-time": 4212,
+              "cpu-usage": "0.0",
+              "time-used": "4212"
+            },
+            "vrrp": {
+              "capacity-usage": "0.03",
+              "cpu-time": 177864,
+              "cpu-usage": "0.02",
+              "time-used": "177864"
+            },
+            "web-redirect": {
+              "capacity-usage": "0.01",
+              "cpu-time": 68079,
+              "cpu-usage": "0.01",
+              "time-used": "68079"
+            }
+          }
+        }
+      }
+    ]
+  }
+]
