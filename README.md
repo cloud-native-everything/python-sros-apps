@@ -1,5 +1,8 @@
 # python-sros-apps
 
+## Setup
+Example of how to add the script
+
 ```
 A:admin@R1# configure private
 INFO: CLI #2070: Entering private configuration mode
