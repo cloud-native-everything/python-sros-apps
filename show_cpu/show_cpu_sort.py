@@ -4,8 +4,7 @@ from pysros.pprint import Table, Padding
 import sys
  
 def check_cpu(conn_obj):
-    # Check delay on each interface and report operational delay (whether it is static or dynamic doesn't matter)
-    # Output is a custom table formatted by the pprint.Table module from pysros
+    ## Get cpu info and show it in ascending order based on CPU Usage
     if_state = conn_obj.running.get('/nokia-state:state/system/cpu')
     # 1 second results
     if_cpu_rows = []
