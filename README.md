@@ -1,5 +1,10 @@
 # python-sros-apps
 
+Remember to copy the python script to the router first:
+```
+scp if-delay.py  admin@router:
+```
+
 ## Setup
 Example of how to add the script
 
@@ -15,7 +20,7 @@ A:admin@R1# python python-script "if-delay" version python3
 A:admin@R1# python python-script "if-delay" admin-state enable
 
 *[pr:/configure]
-A:admin@R1# python python-script "if-delay" urls cf3:/if_delay.py
+A:admin@R1# python python-script "if-delay" urls cf3:\if_delay.py
 
 *[pr:/configure]
 A:admin@R1# /configure system management-interface cli md-cli environment
@@ -69,3 +74,14 @@ commit
 python python-script "show-cpu-sort" admin-state enable
 commit
 ```
+## Trouble shooting
+You get this error message:
+```
+MINOR: MGMT_CORE #2507: Python execution failed - 'pol-change' is operational down
+```
+
+Then, probably you havent copied the file to cf3, you can check this using ```file list``` command
+or you haven't enable the command and alias, use ```admin-state enable```
+or you have an error in the path, you should use ```\``` instad of ```/```
+
+See ya!

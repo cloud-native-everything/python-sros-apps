@@ -1,0 +1,15 @@
+name: sandbox
+
+topology:
+  nodes:
+    router:
+      kind: vr-sros
+      image: vrnetlab/vr-sros:23.3.R3
+      license: license-sros22.txt
+    srlinux1:
+      kind: srl
+      image: ghcr.io/nokia/srlinux:latest
+      type: ixrd3
+
+  links:
+    - endpoints: ["router:eth1", "srlinux1:e1-1"]
